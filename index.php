@@ -41,9 +41,9 @@
 </table>
 <hr/>
 <a href="cadastro.php">
-<button class="btn btn-primary">
-Cadastro de Notas
-</button>
+  <button class="btn btn-primary">
+    Cadastrar de Notas
+  </button>
 </a>
 </div>
 <?php require_once 'assets/vendor/footer.php' ?>
