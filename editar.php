@@ -24,12 +24,10 @@ if(isset($_POST['empresa']) && !empty($_POST['empresa'])){
     #echo "<script>location.href='index.php';</script>";
   }
 ?>
-
-<div class="container-fluid">
+<br/>
+<div class="container-fluid title">
   <div class="container">
-    <h1>
-      Editar Notas
-    </h1>
+    <h1 class="alert alert-primary">Editar Notas</h1>
   </div>
 </div>
 
@@ -61,8 +59,9 @@ if(isset($_POST['empresa']) && !empty($_POST['empresa'])){
         <input class="form-control" type="number" name="pedido" placeholder="Digite o número do pedido" value="<?php echo $dado['pedido']; ?>">
       </div>
       <div class="form-group">
-        <button class="btn btn-primary" type="submit">Cadastrar</button>
+        <button class="btn btn-primary" type="submit">Editar</button>
       </div>
     </form>
   </div>
 </div>
+<?php require_once 'assets/vendor/footer.php' ?>

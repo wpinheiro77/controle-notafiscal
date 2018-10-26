@@ -60,4 +60,7 @@ if(isset($_GET['ordem']) && !empty($_GET['ordem'])){ #verifica se ordem foi envi
     </tr>
         <?php endforeach; } ?>
   </table>
+  <a class="btn btn-primary" href="cadastrar.php" role="button">Cadastrar</a>
 </div>
+
+<?php require_once 'assets/vendor/footer.php' ?>

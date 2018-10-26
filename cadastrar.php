@@ -13,10 +13,10 @@ $sql = $pdo->query($sql);
 echo "<script>location.href='index.php';</script>";
 }
 ?>
-
-<div class="container">
+<br/>
+<div class="container title">
   <div class="container-fluid">
-    <h1>Cadastro de Notas</h1>
+    <h1 class="alert alert-primary">Cadastro de Notas</h1>
     <form method="POST">
       <div class="form-group">
         <label for="empresa">Empresa</label>
